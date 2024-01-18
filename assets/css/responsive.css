@@ -1,0 +1,146 @@
+/* large screens */
+@media (min-width: 1600px)
+{
+
+}
+/* Desktops/Laptops */
+@media (max-width: 1500px)
+{
+}
+/* Desktops/Laptops */
+@media (max-width: 1200px)
+{
+	.parent-wrap
+	{
+		width: 95%;
+	}
+	.main-heading h1
+	{
+		font-size: 40px;
+	}
+	.main-heading span
+	{
+		font-size: 20px;
+	}
+	.thankyou-page img
+	{
+		width: 170px;
+	}
+	.thankyou-page h1
+	{
+		font-size: 50px;
+	}
+	.thankyou-page p
+	{
+		font-size: 16px;
+	}
+
+}
+
+/* Laptops */
+@media (max-width: 1024px)
+{
+
+}
+
+/* Tablets */
+@media (max-width: 768px)
+{
+	.tab-50
+	{
+		width: 50%;
+		margin-bottom: 15px;
+	}
+}
+
+/* mobile */
+@media (max-width: 576px)
+{
+	.sm-100
+	{
+		width: 100%;
+	}
+
+	.parent-wrap
+	{
+		width: 100%;
+	}
+	.form-field select+span:after
+	{
+		font-size: 12px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		top: 29%;
+	}
+	.child-wrap
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.main-heading
+	{
+		width: 90%;
+	}
+	.step-1-inner select
+	{
+		height: 60px;
+	}
+	.step-1-inner h3
+	{
+		font-size: 18px;
+		margin-left: 0;
+	}
+	.label-heading
+	{
+		font-size: 15px;
+	}
+	.form-field select, .form-field input
+	{
+		padding-left: 12px;
+		font-size: 12px;
+	}
+	.field-text
+	{
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 12px;
+	}
+	.main-heading h1
+	{
+		font-size: 25px;
+	}
+	.margin-sm
+	{
+		margin: 10px 0;
+	}
+	.d-small
+	{
+		display: grid;
+		justify-content: center;
+	}
+	.check-label
+	{
+		margin-top: 5px;
+		text-align: center;
+	}
+	.main-heading span
+	{
+		font-size: 18px;
+	}
+
+	.thankyou-page img
+	{
+		width: 150px;
+	}
+	.thankyou-page h1
+	{
+		font-size: 30px;
+	}
+	.thankyou-page p
+	{
+		font-size: 14px;
+		width: 100%;
+	}
+
+}

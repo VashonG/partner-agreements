@@ -1,0 +1,95 @@
+.leftback
+{
+	animation: leftback 0.5s linear forwards;
+}
+
+@keyframes leftback
+{
+	0%
+	{
+		transform: translateY(300px) scale(0.5);
+		opacity: 0;
+	}
+	70%
+	{
+		transform: translateX(0px) scale(0.5);
+		opacity: 1;
+	}
+	100%
+	{
+		transform: scale(1);
+	}
+}
+/*.showfield
+{
+	animation: showfield 1s ease forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+@keyframes showfield
+{
+	0%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}*/
+
+
+.to-right::before
+{
+	animation: to-right 1s linear forwards;
+}
+
+@keyframes to-right
+{
+	0%
+	{
+		width: 0;
+	}
+	100%
+	{
+		width: 100%;
+	}
+}
+
+.thankyou-animation
+{
+	animation: pop-circle 1s ease forwards;
+
+}
+@keyframes pop-circle
+{
+	0%
+	{
+		clip-path: circle(0%);
+	}
+	100%
+	{
+		clip-path: circle(75%);
+	}
+}
+.check-img
+{
+	animation: stamp ease-in-out 0.5s forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+@keyframes stamp
+{
+	0%{
+    opacity: 0;
+    transform:  scale(2);
+  }
+  10%{
+    opacity: .50;
+    transform:  scale(2);
+  }
+  100%{
+    opacity:1;
+    transform:  scale(1);
+  }
+}

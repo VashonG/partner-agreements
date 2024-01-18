@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bussines Form</title>
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- Font awesome 6 -->
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+	<!-- custom styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animation.css">
+</head>
+<body class="show-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form class="show-section" id="steps" method="post" enctype="multipart/form-data">
+					<section id="section-1" class="steps step-1">
+						<div class="parent-wrap">
+							<div class="main-heading">
+								<span>Submit Request</span>
+								<h1>General Partnership Agreements</h1>
+							</div>
+							<div class="leftback step-1-inner">
+								<div class="child-wrap">
+									<h3 class="showfield">What's your proposal?</h3>
+									<div class="showfield form-field">
+										<select id="move" name="request">
+											<option value="">-Select</option>
+											<option value="Affiliate">Request for Author Collaboration</option>
+											<option value="ISO">Request for Partnership</option>
+										</select>
+										<span></span>
+									</div>
+									<p class="showfield field-text">
+										Please enter the details of your request. A member of our support staff will respond 
+										as soon as possible.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="section-2" class="steps step-2">
+						<div class="parent-wrap">
+							<div class="main-heading">
+								<span>Submit Request</span>
+								<h1>Affiliate</h1>
+							</div>
+							<div class="step-num">Step 2</div>
+							<div class="leftback step-2-inner" id="step2">
+								<div class="child-wrap">
+									<div class="showfield">
+										<div class="single-field">
+												<label class="label-heading">Company Legal Name</label>
+												<div class="form-field">
+													<input type="text" id="business-name" name="business-name" placeholder="Business Name" required>
+													<span></span>
+												</div>
+												<p class="field-text">
+													What is your company legal name?
+												</p>
+											</div>
+											<p class="field-text">
+												Please note, this request form is for affiliate marketers, bloggers, and influencers.
+											</p>
+										</div>
+										<div class="single-field">
+											<label class="label-heading">Signer Name</label>
+											<div class="form-field">
+												<input type="text" id="name" name="name" placeholder="Your Name" required>
+												<span></span>
+											</div>
+											<p class="field-text">
+												Who will sign this contract?
+											</p>
+										</div>
+										<div class="single-field">
+											<label class="label-heading">Signers Email</label>
+											<div class="form-field">
+												<input type="text" name="mail" id="mail-email" placeholder="Signers Email" required>
+												<span></span>
+											</div>
+											<p class="field-text">
+												Please provide a company email (if applicable).
+											</p>
+										</div>
+										<div class="single-field">
+											<label class="label-heading">How big is your following?</label>
+											<div class="row">
+												<div class="margin-sm tab-50 sm-100 col-md-4">
+													<div class="row">
+														<div class="d-small col-md-3">
+															<div class="check-field">
+																<input class="mo" type="radio" name="contract" value="Me and Others" checked>
+															</div>
+														</div>
+														<div class="col-md-9">
+															<label class="check-label">
+																<span class="head-text">500+</span>
+																<span class="desc-text">up to 4,999</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="margin-sm tab-50 sm-100 col-md-4">
+													<div class="row">
+														<div class="d-small col-md-3">
+															<div class="check-field">
+																<input class="oo" type="radio" name="contract" value="Only Others">
+															</div>
+														</div>
+														<div class="col-md-9">
+															<label class="check-label">
+																<span class="head-text">5,000+</span>
+																<span class="desc-text">up to 14,999</span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="margin-sm tab-50 sm-100 col-md-4">
+													<div class="row">
+														<div class="d-small col-md-3">
+															<div class="check-field">
+																<input class="om" type="radio" name="contract" value="Only Me">
+															</div>
+														</div>
+														<div class="col-md-9">
+															<label class="check-label">
+																<span class="head-text">15,000+</span>
+																<span class="desc-text">or more</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="single-field">
+											<label class="label-heading">
+												Business Address
+											</label>
+											<div class="form-field">
+												<input type="multi-line" id="othemail" name="oth-email" placeholder="Full Business Address" required>
+												<span></span>
+											</div>
+											<p class="field-text">
+												This is the address that will be on the contract.
+											</p>
+										</div>
+										<div class="next-previous-btn">
+											<button type="button" id="step2btn" class="next">Next Step</button>
+											&nbsp;
+											<button type="button" class="prev">Previous Step</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="section-3" class="steps step-3">
+						<div class="parent-wrap">
+							<div class="main-heading">
+								<span>Submit Request</span>
+								<h1>Affiliate</h1>
+							</div>
+							<div class="step-num">Step 3</div>
+							<div class="leftback step-3-inner" id="step3">
+								<div class="child-wrap">
+									<div class="showfield">
+										<div class="single-field">
+											<label class="label-heading">
+												In a few words, tell us what you do?
+											</label>
+											<div class="form-field">
+												<input type="text" id="message" name="message" placeholder="How did you hear about this website.....">
+												<span></span>
+											</div>
+										</div>
+										<div class="row">
+											<div class="tab-50 sm-100 col-md-4">
+												<div class="single-field">
+													<label class="label-heading">Partner Nationality</label>
+													<div class="form-field">
+														<select name="select2" id="select2" required>
+															<option value="">ID Type</option>
+															<option value="us">United States</option>
+															<option value="uk">United Kigdom</option>
+															<option value="cn">Chine</option>
+															<option value="DE">Germany</option>
+														</select>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<div class="tab-50 sm-100 col-md-8">
+												<div class="single-field">
+													<label class="label-heading">Website</label>
+													<div class="form-field">
+														<input type="text" name="idnumber" placeholder="example.com" required>
+														<span></span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="single-field">
+											<label class="label-heading">
+												How do you plan on promoting Paygeon?
+											</label>
+											<div class="form-field">
+												<textarea id="description" name="description" rows="10" required></textarea>
+											</div>
+											<p class="field-text">
+												Bullet points are highly favored
+											</p>
+										</div>
+										<div class="single-field">
+											<label class="label-heading">
+												Attach any metrics or case studies you would like to share (optional)
+											</label>
+											<div class="upload-field">
+												<label>
+													 <span><strong>Add File</strong> or Drop Files Here</span>
+													<input class="file" type="file" name="file">
+												</label>
+											</div>
+										</div>
+										<div class="next-previous-btn">
+											<button type="button" class="prev">Previous Step</button>
+											&nbsp;
+											<button type="button" class="apply" id="sub">Submit</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="error">
+
+	</div>
+
+<!-- bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- custom JS -->
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
